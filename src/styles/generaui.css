@@ -1,0 +1,57 @@
+.ui-generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffd6f6, #e0c3fc);
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+  }
+  
+  .ui-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .ui-title {
+    font-size: 1.8rem;
+    color: #5e548e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ui-description {
+    color: #7a6fa1;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ui-file-input {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  
+  .ui-button {
+    background-color: #ff5bac;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .ui-button:hover {
+    background-color: #d6409a;
+  }
+  
